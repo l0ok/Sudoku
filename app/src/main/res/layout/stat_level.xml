@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/mainBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_back"
+        android:contentDescription="@string/mainBack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMode"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/style_btn_stroke"
+            android:text="MODE" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textViewTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:text="BEST TIME" />
+
+            <TextView
+                android:id="@+id/textViewCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:text="NUMBER OF GAMES" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textViewTimeZ"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:text="aa:aa" />
+
+            <TextView
+                android:id="@+id/textViewCountZ"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:text="aa" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:text="BACK"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_pressed"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/selectlevel"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        android:layout_weight="1"
+
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/buttonLow"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_pressed"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Low"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonMedium"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_pressed"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Medium"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonHard"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_pressed"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Hard"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonExtra"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_pressed"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Extra"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
